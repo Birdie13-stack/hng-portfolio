@@ -3,37 +3,41 @@ import logo from "../assets/logo.jpg";
 import github from "../assets/Icons/github.jpg";
 import twitter from "../assets/Icons/twitter.jpg";
 import linkedin from "../assets/Icons/linkedin.jpg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
       <img src={logo} alt="Logo" className="logo" />
 
-      <nav>
-        <a href="" className="section-link">
+      <nav className="header-nav">
+        <Link to="/" className="section-link">
           Home
-        </a>
-        <a href="" className="section-link">
+        </Link>
+        <Link to="/about" className="section-link">
           About
-        </a>
+        </Link>
         <a href="" className="section-link">
           Tech Stack
         </a>
         <a href="" className="section-link">
           Projects
         </a>
-        <a href="" className="section-link"></a>
+        <Link to="/contact">Contact</Link>
       </nav>
       <div className="socials">
-        <a href="https://github.com/Birdie13-stack">
+        <a href="https://github.com/Birdie13-stack" target="_blank">
           <img src={github} alt="Github Icon" />
         </a>
 
-        <a href="https://twitter.com/thatbirdintech">
+        <a href="https://twitter.com/thatbirdintech" target="_blank">
           <img src={twitter} alt="Twitter Icon" />
         </a>
 
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/chinenye-oluyede-72455a212/"
+          target="_blank"
+        >
           <img src={linkedin} alt="LinkedIn Icon" />
         </a>
       </div>

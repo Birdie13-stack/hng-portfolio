@@ -1,0 +1,30 @@
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto 120px auto;
+}
+
+.about-section h1 {
+  color: var(--Solid-Heading, #42446e);
+  font-family: "Gabriela", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1px;
+  width: 600px;
+}
+
+.about-section img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  .about-section {
+    flex-direction: column;
+  }
+}

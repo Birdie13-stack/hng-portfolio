@@ -22,6 +22,8 @@ function Technologies() {
         <img src={github} alt="" />
         <img src={vscode} alt="" />
       </div>
+
+      <hr />
     </div>
   );
 }

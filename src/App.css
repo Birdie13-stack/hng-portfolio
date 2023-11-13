@@ -11,10 +11,16 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-bottom: 20px;
+}
+
 .header {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .logo {
@@ -22,19 +28,23 @@
   margin-left: -50px;
 }
 
-nav {
+.header-nav {
   /* margin-left: 200px; */
   margin-right: -200px;
 }
 
 nav a {
-  margin-right: 40px;
-  color: var(--top-link);
   text-decoration: none;
+  margin-right: 40px;
 }
 
-nav a:hover {
-  color: var(--solid-heading);
+.header-nav a {
+  color: var(--top-link);
+  font-size: 1.1rem;
+}
+
+.header-nav a:hover {
+  color: #1572b6;
   text-decoration: underline;
 }
 
@@ -54,7 +64,7 @@ a img {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 50px auto 80px auto;
+  margin: 100px auto 120px auto;
 }
 
 .hero-section h1 {
@@ -63,9 +73,9 @@ a img {
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
-  line-height: 70px; /* 120.69% */
+  line-height: 70px;
   letter-spacing: -1px;
-  width: 636px;
+  width: 650px;
 }
 
 .main-img {
@@ -108,16 +118,42 @@ a img {
 }
 
 .tech img {
-  margin-right: 60px;
+  margin-right: 90px;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  /* border-bottom: none; */
+  color: #42446e;
+  height: 2px;
+}
+
+.projects {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-card {
   padding: 20px;
   width: 373px;
-  height: 200px;
+  margin-right: 20px;
+  height: auto;
   border-radius: 20px;
+  margin-bottom: 20px;
   background: #fff;
-  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  border: 2px dotted #1572b6;
+}
+
+.project-card:hover {
+  box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
 }
 
 .project-links {
@@ -144,4 +180,76 @@ a img {
 .project-links a:hover {
   text-decoration: none;
   color: #42446e;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-page h1 {
+  width: 80%;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 200px;
+  font-family: "Gabriela";
+  color: #42446e;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.reach {
+  display: flex;
+  float: right;
+  margin-right: 130px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  /* justify-content: space-evenly; */
+  font-family: "Poppins", sans-serif;
+}
+
+.reach p {
+  margin-right: 80px;
+}
+
+.reach a {
+  margin-right: 20px;
+}
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.last-section a {
+  color: #1572b6;
+}
+
+.last-section a:hover {
+  color: #42446e;
+  text-decoration: underline;
+}
+
+.last-section p {
+  color: #764abc;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 860px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .foooter-nav {
+    width: 30%;
+  }
+
+  .reach {
+    margin-right: 20px;
+  }
 }
