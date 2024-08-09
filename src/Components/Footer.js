@@ -8,9 +8,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="reach">
+        
         <p>+234 810 258 8140</p>
         <p>birdievsq@gmail.com</p>
-
+        <section className="socials">
         <a href="https://github.com/Birdie13-stack" target="_blank">
           <img src={github} alt="Github Icon" />
         </a>
@@ -25,6 +26,9 @@ function Footer() {
         >
           <img src={linkedin} alt="LinkedIn Icon" />
         </a>
+        </section>
+
+        
       </div>
       <hr />
 
@@ -47,7 +51,7 @@ function Footer() {
 
         <p>
           Made by{" "}
-          <b style={{ textDecoration: "underline" }}>Oluyede Chinenye</b> with
+          <b>Chinenye</b> with
           love and a cup of tea☕️
         </p>
       </div>

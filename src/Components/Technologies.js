@@ -14,12 +14,12 @@ function Technologies() {
       <p className="stack-text">Technologies I've been working with recently</p>
 
       <div className="tech">
-        <img src={html} alt="" />
-        <img src={css} alt="" />
-        <img src={js} alt="" />
-        <img src={react} alt="" />
-        <img src={git} alt="" />
-        <img src={github} alt="" />
+        <img src={html} alt="HTML Logo" />
+        <img src={css} alt="CSS Logo" />
+        <img src={js} alt="Javascript Logo" />
+        <img src={react} alt="React Logo" />
+        <img src={git} alt="Git Logo" />
+        <img src={github} alt="Github Logo" />
         <img src={vscode} alt="" />
       </div>
 

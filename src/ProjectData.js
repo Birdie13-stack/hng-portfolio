@@ -34,18 +34,40 @@ export const ProjectData = [
   },
 
   {
-    title: "Animated Form",
-    description: "An animated signup and login form.",
-    stack: "HTML, CSS",
-    repo: "https://github.com/Birdie13-stack/animated-form",
-    live: "https://twitter-sidebar-eight.vercel.app/",
+    title: "Quote Generator",
+    description: "An random quote generator using the API Ninjas Quote API.",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/quote-generator ",
+    live: "https://quote-generator-nine-sigma.vercel.app/",
   },
 
   {
-    title: "Canada Visa Site",
-    description: "An site for a canadian visa application company.",
-    stack: "HTML, CSS, Javascript",
-    repo: "https://github.com/Birdie13-stack/canada-visa",
-    live: "https://project-1-zeta-nine.vercel.app/",
+    title: "Age Calculator",
+    description: "A simple age calculator",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/age-calculator",
+    live: "https://age-calculator-orcin-rho.vercel.app/",
   },
+  {
+    title: "Medium Landing Page",
+    description: "A clone of the medium landing page",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/medium",
+    live: "https://medium-swart-seven.vercel.app/",
+  },
+  {
+    title: "Weather App",
+    description: "A simple weather application that allows users to fetch and display weather information for a specified city.",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/weather-app",
+    live: "https://weather-app-sigma-olive.vercel.app/",
+  },
+
+  {
+    title: "Photo Gallery",
+    description: "A photo gallery that fetches and displays random phots from the Unsplash API",
+    stack: "React.js, CSS",
+    repo: "https://github.com/Birdie13-stack/photo-gallery",
+    live: "https://photo-gallery-chi-opal.vercel.app/ "
+  }
 ];
